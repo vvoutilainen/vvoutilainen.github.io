@@ -1,0 +1,1 @@
+Stripped-down version of revealpres for web page.

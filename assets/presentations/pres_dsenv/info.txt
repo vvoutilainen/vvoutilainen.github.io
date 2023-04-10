@@ -1,0 +1,4 @@
+Tested with:
+ - revealpres commit 6e17253
+ - animlib v0.2.2
+ - reveal.js 3.8.0
