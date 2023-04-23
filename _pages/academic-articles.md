@@ -10,7 +10,6 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| Negative Nominal Interest Rates in Finland | With Simon Kwan and Mauricio Ulate.
 | Effect of Collateral Eligibility on Corporate Loan Pricing | With Aleksi Paavola.
 
 ---
@@ -29,8 +28,10 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Voutilainen (2017), Bank of Finland Research Discussion Papers][wavelets] | Wavelet decomposition of the financial cycle : An early warning system for financial tsunamis.
+| [Kwan, Ulate & Voutilainen (2023), Federal Reserve Bank of San Francisco Working Papers][kuv] | The Transmission of Negative Nominal Interest Rates in Finland
+| [Voutilainen (2017), Bank of Finland Research Discussion Papers][wavelets] | Wavelet decomposition of the financial cycle : An early warning system for financial tsunamis
 
+[kuv]: https://www.frbsf.org/economic-research/publications/working-papers/2023/11/
 [wavelets]: https://publications.bof.fi/handle/10024/47855
 
 ---
