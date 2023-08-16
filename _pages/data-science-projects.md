@@ -12,11 +12,13 @@ Below are some selected notebooks on modelling (econometrics, machine learning e
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Difference-in-difference in a repeated cross-sample][ds_modelling_1] | Difference-in-difference in a repeated cross-sample.
+| Difference-in-differences project with simulated data | [Data simulation for DiD settings][ds_modelling_1a], [DiD in a repeated cross-sample][ds_modelling_1b], [note on using fixed effects with DiD in Python and R][ds_modelling_1c].
 | [SVAR contemporaneous causality and Slutzky-Fischer paradigm][ds_modelling_2] | Discussion about the connection between (contemporaneous) causality in SVARs and Slutzky-Fischer paradigm.
 | [Note on Omitted Variable Bias vs. Confounding Bias][ds_modelling_3] | Discussion about how Omitted Variable Bias and Confounding Bias are not the same!
 
-[ds_modelling_1]: {{ "/../assets/notebooks/did_in_repeated_crossec.html" | relative_url }}
+[ds_modelling_1a]: {{ "/../assets/notebooks/did_simulated_datasets.html" | relative_url }}
+[ds_modelling_1b]: {{ "/../assets/notebooks/did_in_repcrossec.html" | relative_url }}
+[ds_modelling_1c]: {{ "/../assets/notebooks/did_note_on_fes.html" | relative_url }}
 [ds_modelling_2]: https://github.com/vvoutilainen/Data_Science_Projects/blob/master/stats/causality/svar_slutzky.ipynb
 [ds_modelling_3]: https://github.com/vvoutilainen/Data_Science_Projects/blob/master/stats/causality/ovb_vs_confounding.ipynb
 
