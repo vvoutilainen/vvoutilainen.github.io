@@ -58,20 +58,17 @@ plugins:
 author:
   name   : "Ville Voutilainen"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Financial stability, quantitative analysis, and data science."
+  bio    : "Data science and quantitative economics, as well as enabling the same for others."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      #url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/VilleEcon"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vvoutilainen"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      #url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-medium"
+      url: "https://medium.com/@ville.v.voutilainen"
 
 footer:
   links:
@@ -81,9 +78,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vvoutilainen"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      #url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-medium"
+      url: "https://medium.com/@ville.v.voutilainen"
 
 defaults:
   # _posts
