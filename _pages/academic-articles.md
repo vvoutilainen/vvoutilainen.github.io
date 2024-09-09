@@ -10,7 +10,8 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| Effect of Collateral Eligibility on Corporate Loan Pricing | With Aleksi Paavola.
+| Finnish firm ownership network with an application in CRE analysis
+| Who owes what in the CRE market? Quantifying CRE bank debt concentrations using Finnish firm ownership data | With Maija Järvenpää.
 
 ---
 
@@ -18,7 +19,7 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Nyholm & Voutilainen (2021), BoF Economics Review][quantilesofgrowth] | Quantiles of growth : household debt and growth vulnerabilities in Finland.
+| [Nyholm & Voutilainen (2021), BoF Economics Review][quantilesofgrowth] | Quantiles of growth : household debt and growth vulnerabilities in Finland
 
 [quantilesofgrowth]: https://publications.bof.fi/handle/10024/43589
 
@@ -28,9 +29,11 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
+| [Paavola & Voutilainen (2024), Bank of Finland Research Discussion Papers][paavola_voutilainen] | Central bank collateral policy and credit pricing : evidence from Finland
 | [Kwan, Ulate & Voutilainen (2023), Federal Reserve Bank of San Francisco Working Papers][kuv] | The Transmission of Negative Nominal Interest Rates in Finland
 | [Voutilainen (2017), Bank of Finland Research Discussion Papers][wavelets] | Wavelet decomposition of the financial cycle : An early warning system for financial tsunamis
 
+[paavola_voutilainen]: https://publications.bof.fi/handle/10024/53601
 [kuv]: https://www.frbsf.org/economic-research/publications/working-papers/2023/11/
 [wavelets]: https://publications.bof.fi/handle/10024/47855
 
