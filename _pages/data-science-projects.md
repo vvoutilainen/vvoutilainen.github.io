@@ -15,12 +15,14 @@ Selected notebooks on modelling (econometrics, machine learning, etc.). All note
 | Difference-in-differences project with simulated data | [1) Data simulation for DiD settings][ds_modelling_1a]. [2) DiD in a repeated cross-sample][ds_modelling_1b]. [3) Note on using fixed effects with DiD in Python and R][ds_modelling_1c].
 | [SVAR contemporaneous causality and Slutzky-Fischer paradigm][ds_modelling_2] | Discussion about the connection between (contemporaneous) causality in SVARs and Frisch-Slutzky paradigm.
 | [Note on Omitted Variable Bias vs. Confounding Bias][ds_modelling_3] | Discussion about how Omitted Variable Bias and Confounding Bias differ.
+| [DebtRank example][ds_modelling_4] | Implementation of Battiston et. al. (2012) DebtRank algorithm.
 
 [ds_modelling_1a]: {{ "/../assets/notebooks/did_simulated_datasets.html" | relative_url }}
 [ds_modelling_1b]: {{ "/../assets/notebooks/did_in_repcrossec.html" | relative_url }}
 [ds_modelling_1c]: {{ "/../assets/notebooks/did_note_on_fes.html" | relative_url }}
 [ds_modelling_2]: {{ "/../assets/notebooks/svar_slutzky.html" | relative_url }}
 [ds_modelling_3]: {{ "/../assets/notebooks/ovb_vs_confounding.html" | relative_url }}
+[ds_modelling_4]: {{ "/../assets/notebooks/debtrank_example.html" | relative_url }}
 
 ---
 
