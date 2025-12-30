@@ -10,7 +10,7 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Bank of Finland Bulletin][bof_bulletin] | My articles on Economics for the general public in Bank of Finland Bulletin.
+| [Bank of Finland Bulletin][bof_bulletin] | My articles on Economics for the general public in the Bank of Finland Bulletin.
 
 [bof_bulletin]: https://www.bofbulletin.fi/en/author/ville-voutilainen/
 
