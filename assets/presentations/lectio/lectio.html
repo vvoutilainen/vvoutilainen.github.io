@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Lectio praecursoria</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reset.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/theme/serif.min.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/highlight/monokai.min.css" />
+
+		<!-- Two-columned paragraphs -->
+		<style>
+			.two-columns {
+				column-count: 2;
+				column-gap: 2em;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Title slide -->
+				<section class="center" style="top: 400px; display: block;">
+					<h2>Essays on Central Banking with Microdata</h2>
+					<h3><em>Lectio praecursoria</em> slides</h3>
+					<p>
+						Ville Voutilainen<br>
+						10 April 2026
+					</p>
+					<p>
+						<small>
+						Views expressed are those of the presenter.<br>
+						</small>
+					</p>
+				</section>
+
+				<!-- The six steps -->
+				<section>
+					<h3>Six steps of the lecture</h3>
+					<br>
+					<ol class="two-columns">
+						<li>Essay topics</li>
+						<li>Microdata</li>
+						<li>Essay I</li>
+						<li>Essay II</li>
+						<li>Essay III</li>
+						<li>Conclusion</li>
+					</ol>
+
+				</section>
+
+				<!-- Microdata -->
+				<section>
+					<br>
+					<img src="pics/microdata.png" style="width: 75%;">
+				</section>
+
+				<!-- Essay I: Core Question -->
+				<section>
+					<h3>Essay I: Core Question</h3>
+					<br>
+					<blockquote>
+						Did the pass-through of monetary policy change during the Negative Interest Rate Period?
+					</blockquote>
+				</section>
+
+				<!-- Essay I: Complete pass-through -->
+				<section>
+					<br>
+					<h3>Essay I: Complete pass-through</h3>
+					<video
+						data-autoplay
+						loop
+						muted
+						playsinline
+						width="100%"
+					>
+						<source src="vids/PassThrough_full.mp4" type="video/mp4">
+					</video>
+				</section>
+
+
+				<!-- Essay I: Incomplete pass-through -->
+				<section>
+					<br>
+					<h3>Essay I: Incomplete pass-through</h3>
+					<video
+						data-autoplay
+						loop
+						muted
+						playsinline
+						width="100%"
+					>
+						<source src="vids/PassThrough_partial.mp4" type="video/mp4">
+					</video>
+				</section>
+
+				<!-- Essay II: Core Question -->
+				<section>
+					<h3>Essay II: Core Question</h3>
+					<br>
+					<blockquote>
+						Does being eligible as central bank collateral affect the pricing of corporate loans?
+					</blockquote>
+				</section>
+
+				<!-- Essay II: Infographic -->
+				<section>
+					<h3>Essay II: Central Bank Collateral and Credit Claims</h3>
+					<img src="pics/essay2_infographic.png" style="width: 90%;">
+				</section>
+
+				<!-- Essay II: Difference-in-differences -->
+				<section>
+					<br>
+					<h3>Essay II: Difference-in-differences</h3>
+					<video
+						data-autoplay
+						loop
+						muted
+						playsinline
+						width="100%"
+					>
+						<source src="vids/Essay2DiD.mp4" type="video/mp4">
+					</video>
+				</section>
+
+				<!-- Essay III: Core Question -->
+				<section>
+					<h3>Essay III: Core Question</h3>
+					<br>
+					<blockquote>
+						Who are the owners of commercial real estate and does ownership affect CRE loan pricing?
+					</blockquote>
+				</section>
+
+				<!-- Essay III: Ownership network -->
+				<section>
+					<br>
+					<h3>Essay III: Ownership network</h3>
+					<video
+						data-autoplay
+						loop
+						muted
+						playsinline
+						width="100%"
+					>
+						<source src="vids/Essay3Network.mp4" type="video/mp4">
+					</video>
+				</section>
+
+				<!-- Ending slide-->
+				<section class="center" style="text-align: left">
+					<h3 style="text-align: center">Time to conclude.</h3>
+					<h3 style="text-align: center">Thank you for your attention!</h3>
+					<br>
+					<p>References</p>
+					<ul style="text-align: left">
+						<li style="font-size:60%">Voutilainen (2026): Essays on Central Banking with Microdata. <a href="http://hdl.handle.net/10138/628947">Dissertationes Universitatis Helsingiensis 150/2026</a>.</li>
+						<li style="font-size:60%">Slides made with <a href="https://revealjs.com">reveal.js</a>.</li>
+						<li style="font-size:60%">Animations made with <a href="https://www.manim.community/">manim</a>.</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/notes/notes.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/markdown/markdown.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/highlight/highlight.min.js"></script>
+		<script>
+
+			// Custom pause/unpause for videos, put under space (overrides default behavior)
+			const VideoTogglePlugin = () => ({
+			id: 'video-toggle',
+			init: deck => {
+				deck.addKeyBinding(
+				{ keyCode: 32, key: 'Space', description: 'Pause/unpause slide video' },
+				() => {
+					const slide = deck.getCurrentSlide();
+					const video = slide.querySelector('video');
+					if (!video) return;
+					video.paused ? video.play() : video.pause();
+				}
+				);
+			}
+			});
+
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes, VideoTogglePlugin],
+			});
+		</script>
+	</body>
+</html>
