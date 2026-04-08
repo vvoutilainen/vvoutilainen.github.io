@@ -10,11 +10,13 @@ toc: true
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
+| [Lectio praecursoria][lectio] | Slides from my doctoral dissertation defense.
 | [Conda Data Science Environments][pres_dsenv] | Using `conda` to create data science environments.
 | [Jupyter Notebooks][pres_jupyter_notebooks] | What makes Jupyter notebooks amazing for data science.
 | [Data Visualization in Browser][pres_browserviz] | How to use web browsers for data visualization.
 | [Prelude to Data Analytics][pres_dataanalytics] | Presentation at Arcada University of Applied Sciences, November 2018.
 
+[lectio]: {{ "/../assets/presentations/lectio/lectio.html" | relative_url }}
 [pres_dsenv]: {{ "/../assets/presentations/pres_dsenv/pres_dsenv.html" | relative_url }}
 [pres_jupyter_notebooks]: {{ "/../assets/presentations/pres_jupyter_notebooks/pres_jupyter_notebooks.html" | relative_url }}
 [pres_browserviz]: {{ "/../assets/presentations/pres_browserviz/pres_browserviz.html" | relative_url }}
